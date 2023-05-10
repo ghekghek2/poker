@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(80, 83, 80);
+    color: rgb(216, 226, 216);
 line-height: 160%;
 background-image: url('./images/background/bb.png');
 
@@ -34,7 +34,13 @@ ul li {
 }
 section{
 display: flex;
-border: 1px solid hotpink;
+
+background: rgba(255, 255, 255, 0.09);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.8px);
+-webkit-backdrop-filter: blur(1.8px);
+border: 1px solid rgba(255, 255, 255, 0.23);
 padding: 1em;
 margin: 0 auto;
   }
@@ -176,16 +182,16 @@ padding: 1em;
   max-width: 800px;
 margin: 0 auto;
 padding: 1em;
-border: 1px solid hotpink;
+
 border-radius: 2px;
 margin-bottom: 2em;
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.21);
+background: rgba(255, 255, 255, 0.09);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.9px);
--webkit-backdrop-filter: blur(4.9px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(1.8px);
+-webkit-backdrop-filter: blur(1.8px);
+border: 1px solid rgba(255, 255, 255, 0.23);
 
 }
 .hero-container .hero-img{
@@ -270,7 +276,7 @@ margin: 0 auto;
 }
 
 .card-wrapper p , li p{
-    color: rgb(136, 134, 134);
+  color: rgb(158, 156, 156);
 }
 
   .hidden {
@@ -284,7 +290,7 @@ margin: 0 auto;
   /* boardguide */
 
   #boardGuide p , .board-ul li{
-    color: rgb(136, 134, 134);
+    color: rgb(158, 156, 156);
   }
 
 .board-ul{
