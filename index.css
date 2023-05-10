@@ -38,7 +38,18 @@ border: 1px solid hotpink;
 padding: 1em;
 margin: 0 auto;
   }
-
+  button{
+    border: none;
+  }
+button:focus{
+  outline: none;
+  border: none;
+}
+input[type="text"], input[type="password"], textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
+}
 
 /* convert */
 .convert{
@@ -47,12 +58,12 @@ margin: 0 auto;
 padding: 1em;
 }
 .convert input{
-font-size: 1.5em;
+font-size: 1em;
 padding: 8px 10px ;
 border-radius: 8px;
 }
 .convert button{
-font-size: 1.5em;
+font-size: 1em;
 padding: 8px 10px ;
 border-radius: 8px;
 }
@@ -69,11 +80,21 @@ width: 100%;
 .chips{
   color: rgb(53, 255, 53);
 }
+.money-btn{
+  background: #FDDA16;
+  text-align: left;
+ 
+}
+.chips-btn{
+  background: #35FF35;
+  text-align: left;
+}
+
 .convert .label{
   color: white;
 }
 .money-container{
-background: rgba(255, 254, 112, 0.48);
+background: rgba(151, 151, 72, 0.48);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(4.9px);
@@ -84,7 +105,7 @@ border: 1px solid rgba(255, 254, 112, 0.3);
 .chips-container{
 
 
-background: rgba(95, 230, 88, 0.57);
+background: rgba(26, 80, 23, 0.57);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(4.9px);
