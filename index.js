@@ -6,12 +6,13 @@ const boardGuide = document.getElementById('boardGuide');
 
 // boardGuide.style.display = 'none';
 cardGuide.style.display = 'none';
+button2.style.backgroundColor = '#648D3D';
 // Attach event listeners to the buttons
 button1.addEventListener('click', () => {
   // Show paragraph 1 and hide paragraph 2
   cardGuid.style.display = '';
   boardGuide.style.display = 'none';
-  button1.style.backgroundColor = '#DADADA';
+  button1.style.backgroundColor = '#648D3D';
   button2.style.backgroundColor = '';
 });
 
@@ -20,5 +21,5 @@ button2.addEventListener('click', () => {
   cardGuid.style.display = 'none';
   boardGuide.style.display = '';
   button1.style.backgroundColor = '';
-  button2.style.backgroundColor = '#DADADA';
+  button2.style.backgroundColor = '#648D3D';
 });
