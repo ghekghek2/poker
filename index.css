@@ -60,6 +60,9 @@ input[type="text"], input[type="password"], textarea {
 .hero-content{
   padding: 1em;
 }
+.tagline{
+  margin-bottom: 1em;
+}
 .download-btn{
   display: flex;
   flex-direction: column;
@@ -73,24 +76,33 @@ align-items: flex-start;
 padding: 1em;
 padding-left: 1em;
   align-items: center;
-color: #363636;
+color: white;
   gap: 12px;
   position: relative;
 width: 60%;
   height: 27px;
 cursor: pointer;
-  background: #d6d6d6;
-  border-radius: 6px;
-  border: 1px solid transparent;
-  text-transform: capitalize;
+
+
+border-radius: 8px;
+
+  border: 1px solid #8cc952;
+  text-transform: uppercase;
+
+  font-weight: 600;
+
+  font-size: 17px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+
+
 }
-.dl-btn:hover{
-  background: #222;
-  color: white;
-  border: 1px solid white;
-}
+
+
+
+
+
 .dl-btn:hover {
-  background: #222;
+  background: #3b5824;
   color: white;
 }
 
@@ -219,7 +231,7 @@ padding: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
+ 
 margin: 0 auto;
 padding: 2em;
 
@@ -231,7 +243,7 @@ border-radius: 2px;
 .hero-container .hero-img{
   display: flex;
   justify-content: center;
-width: 50%;
+width: 40%;
 
 }
 .hero-container .hero-img img{
@@ -278,10 +290,12 @@ width: 100%;
   margin:  auto;
   gap: 8px;
 padding: 1em 0;
+
 }
 .guide-link{
 border-radius: 8px;
   padding: 20px ;
+border: 1px solid #8cc952 ;
 }
 .guide .tut-page a{
   letter-spacing: 2px;
@@ -378,11 +392,13 @@ margin-bottom: 2em;
 }
 .hero{
   margin-bottom: 4em;
+  max-width: 800px;
+  padding: 0;
 }
 .game-guide-title{
   text-align: center;
   margin-bottom: 2em;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 .game-guide-title h1{
   color: #648d3d;
@@ -390,6 +406,26 @@ margin-bottom: 2em;
 .partner{
   margin: 2em 0;
   text-align: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-bottom: 1em;
+
+}
+.partner-wrapper{
+  border: 1px solid #8cc952;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+border-radius: 8px;
+background-color: #376115;
+}
+.partner-wrapper h2{
+  letter-spacing: 4px;
+}
+.partner-wrapper p{
+ margin: 0;
 }
   @media only screen and (max-width: 768px) {
 section{
